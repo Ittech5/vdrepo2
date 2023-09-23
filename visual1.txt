@@ -26,6 +26,12 @@ The error message "Connection refused by [127.0.0.1]" typically indicates that t
 8. **SMTP Port Configuration*
    - Ensure that
    
+
+
+
+
+
+   
    
     you're using the correct SMTP port for SendGrid or your email relay service. Common ports for SMTP are 25, 587 (for TLS/SSL), and 465 (for SSL).
 
