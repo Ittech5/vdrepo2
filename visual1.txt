@@ -24,7 +24,10 @@ The error message "Connection refused by [127.0.0.1]" typically indicates that t
    - You can use the `telnet` command to manually test the connection to the SMTP server. For example, you can run `telnet 127.0.0.1 <port>` to see if you can establish a connection to the SMTP server on your local machine.
 
 8. **SMTP Port Configuration*
-   - Ensure that you're using the correct SMTP port for SendGrid or your email relay service. Common ports for SMTP are 25, 587 (for TLS/SSL), and 465 (for SSL).
+   - Ensure that
+   
+   
+    you're using the correct SMTP port for SendGrid or your email relay service. Common ports for SMTP are 25, 587 (for TLS/SSL), and 465 (for SSL).
 
 9. **Server Restart**:
    - Sometimes, a simple server restart can help resolve connection issues, especially if there have been recent changes to your server configuration.
